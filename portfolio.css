@@ -1,0 +1,244 @@
+body {
+    font-family: Garamond, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #3e6c9a;
+    color: rgb(255, 254, 254);
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    color: #0073e6;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type:square;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.contact-box {
+    max-width: 350px;  /* Compact box */
+    width: 90%;        /* Responsive size */
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Space between items */
+}
+
+.contact-box h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.contact-box p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Make it more compact on small screens */
+@media (max-width: 480px) {
+    .contact-box {
+        max-width: 280px;
+        padding: 10px;
+    }
+    .contact-box h2 {
+        font-size: 18px;
+    }
+    .contact-box p {
+        font-size: 15px;
+    }
+}
+
+/* About Me Section */
+#profile {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin:40px auto;
+}
+
+/* Profile Container */
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Profile Image */
+.profile-image img {
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 3px solid #0056b3;
+}
+
+/* Profile Text */
+.profile-text {
+    flex: 1;
+    text-align: justify;
+    font-size: 17px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image img {
+        width: 150px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    .profile-text {
+        text-align: left;
+        font-size: 18
+    px;
+    }
+}
+
+.skills-list {
+    list-style-type: none; /* Removes default bullets */
+    padding: 0;
+}
+
+.skills-list li {
+    margin-bottom: 10px; /* Adds spacing between skills */
+    line-height: 1.6; /* Adjusts line height for better readability */
+}
+
+.soft-skills-list {
+    list-style-type: none; /* Removes default bullets (optional) */
+    padding: 0;
+}
+
+.soft-skills-list li {
+    margin-bottom: 10px; /* Adds space between each skill */
+    line-height: 1.6; /* Adjusts line spacing */
+}
+
+nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #2a90da;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background: #2a5d94;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+footer input,
+footer textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+footer button {
+    background: #ffcc00;
+    color: #2a5d94;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.certifications-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.certifications-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.see-more-container {
+    text-align: center;
+    grid-column: span 2;
+}
+
+.see-more-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

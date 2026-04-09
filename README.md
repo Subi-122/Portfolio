@@ -1,9 +1,4 @@
-
-  # Create portfolio
-
-  This is a code bundle for Create portfolio. The original project is available at https://www.figma.com/design/nSyqeUJ00y6FOnEErLy76e/Create-portfolio.
-
-  ## Running the code
+## Running the code
 
   Run `npm i` to install the dependencies.
 

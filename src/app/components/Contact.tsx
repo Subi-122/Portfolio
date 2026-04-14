@@ -6,19 +6,19 @@ export function Contact() {
     {
       name: 'Email',
       icon: Mail,
-      link: 'mailto:subiksha@example.com',
+      link: 'mailto:subi12022006@gmail.com',
       color: '#6366F1',
     },
     {
       name: 'GitHub',
       icon: Github,
-      link: 'https://github.com',
+      link: 'https://github.com/Subi-122',
       color: '#22C55E',
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      link: 'https://linkedin.com',
+      link: 'https://www.linkedin.com/in/subiksha-murugeshan-6ab49a327',
       color: '#6366F1',
     },
   ];

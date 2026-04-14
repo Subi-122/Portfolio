@@ -8,20 +8,20 @@ export function Experience() {
       year: '2024',
       title: 'UI/UX Intern',
       company: 'Techvolt',
-      certificate: './Techvolt.jpg',
+      certificate: 'Techvolt.jpg',
     },
     {
       year: '2024',
       title: 'Full Stack Intern',
       company: 'NoviTech',
-      certificate: './Novi.pdf',
+      certificate: 'Novi.pdf',
     },
   ];
 
   const certifications = [
-    { name: 'UX Fundamentals: A Process for Problem Solving', link: './ux.pdf' },
-    { name: 'Fundamentals of Kotlin Programming', link: './kotlin.pdf' },
-    { name: 'Data Structures and Algorithms', link: './Dsa.pdf' },
+    { name: 'UX Fundamentals: A Process for Problem Solving', link: 'ux.pdf' },
+    { name: 'Fundamentals of Kotlin Programming', link: 'kotlin.pdf' },
+    { name: 'Data Structures and Algorithms', link: 'Dsa.pdf' },
   ];
 
   return (

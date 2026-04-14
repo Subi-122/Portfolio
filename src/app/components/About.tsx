@@ -28,7 +28,7 @@ export function About() {
           >
             <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/subi.jpeg"
+                src="subi.jpeg"
                 alt="Subiksha"
                 className="w-full h-full object-cover"
               />
